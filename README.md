@@ -5,9 +5,8 @@
 # Charlotte Alley | Data Science MS Candidate (4.0 GPA)
 **Healthcare Account Manager** | **Machine Learning** | Omaha, NE
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-gray?style=for-the-badge)](https://github.com/charlottealley/Data-Science-Portfolio)
 [![Resume](https://img.shields.io/badge/Resume-PDF-gray?style=for-the-badge&logo=adobeacrobat)](Charlotte%20Alley%20Resume.pdf)
-[![Full Repo](https://img.shields.io/badge/Repo-gray?style=for-the-badge&logo=github)](https://github.com/charlottealley/Data-Science-Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-gray?style=for-the-badge)](https://github.com/charlottealley/Data-Science-Portfolio)
 
 ## Featured Projects
 
