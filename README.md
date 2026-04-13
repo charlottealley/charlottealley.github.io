@@ -1,3 +1,7 @@
+<p align="center">
+<span style="font-family:monospace;font-size:72px;font-weight:900;color:#6b7280;letter-spacing:-5px;line-height:1">CA</span>
+</p>
+
 # Charlotte Alley | Data Science MS Candidate (4.0 GPA)
 **Healthcare Account Manager** | **Machine Learning** | Omaha, NE
 
