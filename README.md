@@ -1,5 +1,5 @@
-<p align="center">
-<span style="font-family:monospace;font-size:72px;font-weight:900;color:#6b7280;letter-spacing:-5px;line-height:1">CA</span>
+<p align="left">
+<span style="font-family:monospace;font-size:144px;font-weight:900;color:#6b7280;letter-spacing:-8px;line-height:1">CA</span>
 </p>
 
 # Charlotte Alley | Data Science MS Candidate (4.0 GPA)
@@ -7,7 +7,7 @@
 
 [![Resume](https://img.shields.io/badge/Resume-PDF-gray?style=for-the-badge&logo=adobeacrobat)](Charlotte%20Alley%20Resume.pdf)
 
-![Portfolio](https://img.shields.io/badge/Portfolio-gray?style=for-the-badge)
+[![Full Portfolio](https://img.shields.io/badge/Repo-gray?style=for-the-badge&logo=github)](https://github.com/charlottealley/Data-Science-Portfolio)
 
 ## Featured Projects
 
