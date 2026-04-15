@@ -19,6 +19,7 @@
 ### Uplift Modeling 
 *Causal inference for patient treatment optimization*
 [![Notebook](https://img.shields.io/badge/Jupyter-gray?style=for-the-badge&logo=jupyter)](https://github.com/charlottealley/Data-Science-Portfolio/blob/main/Causal%20Inference%20-%20Uplift%20-%20Identifying%20Persuadable%20Voters%20with%20and%20without%20Social%20Media/Causal%20Inference%20-%20Uplift%20-%20Identifying%20Persuadable%20Voters%20with%20and%20without%20Social%20Media.ipynb)
+[![Project Demo Video 2](https://img.youtube.com/vi/v5YNGkI3w34/0.jpg)](https://www.youtube.com/watch?v=v5YNGkI3w34)
 
 [![Full Portfolio](https://img.shields.io/badge/Repo-gray?style=for-the-badge&logo=github)](https://github.com/charlottealley/Data-Science-Portfolio)
 
