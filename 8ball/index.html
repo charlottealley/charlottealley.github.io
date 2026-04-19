@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte's Magic 8-Ball: Skills Edition</title>
+    <style>
+        body { 
+            background: linear-gradient(135deg, #f0f8ff 0%, #e0f2fe 100%); 
+            font-family: 'Gill Sans', 'Segoe UI', sans-serif; 
+            text-align: center; 
+            padding: 2rem; 
+            margin: 0;
+        }
+        h1 { color: #003a66; margin-bottom: 1rem; }
+        #ball { 
+            width: 300px; height: 300px; 
+            background: radial-gradient(circle at 30% 30%, #444 0%, #111 60%, #000 100%); 
+            border-radius: 50%; 
+            margin: 2rem auto; 
+            cursor: pointer; 
+            position: relative; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        #ball:hover { transform: scale(1.05); }
+        #window { 
+            width: 140px; height: 140px; 
+            background: #f8f9fa; 
+            border-radius: 50%; 
+            position: absolute; top: 50%; left: 50%; 
+            transform: translate(-50%, -50%); 
+            display: flex; align-items: center; justify-content: center; 
+            font-size: 0.85rem; line-height: 1.3; 
+            padding: 1.2rem; 
+            box-shadow: inset 0 5px 15px rgba(0,0,0,0.3), 0 0 20px rgba(255,255,255,0.5);
+            text-align: center;
+            color: #333;
+            font-weight: 500;
+        }
+        .shake { animation: shake 1s ease-in-out; }
+        @keyframes shake { 
+            0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+            20% { transform: translate(-50%, -50%) rotate(-10deg); }
+            40% { transform: translate(-50%, -50%) rotate(10deg); }
+            60% { transform: translate(-50%, -50%) rotate(-5deg); }
+            80% { transform: translate(-50%, -50%) rotate(5deg); }
+        }
+        #history { 
+            max-width: 600px; margin: 2rem auto; 
+            text-align: left; font-size: 0.9rem; color: #666; 
+            background: white; padding: 1.5rem; border-radius: 10px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 480px) { #ball { width: 250px; height: 250px; } #window { width: 110px; height: 110px; font-size: 0.75rem; } }
+    </style>
+</head>
+<body>
+    <h1>🧙‍♀️ Shake Charlotte's 8-Ball: Predict My Future in Your Company</h1>
+    <p>Click the ball for a random skill/personality reveal!</p>
+    <div id="ball" onclick="getAnswer()" title="Click to shake!">
+        <div id="window">Ask away!</div>
+    </div>
+    <div id="history" style="display: none;"></div>
+
+    <script>
+        const answers = [
+            "Will write entertaining yet appropriate markdown",
+            "Won’t know everything about data science but will certainly try",
+            "Learned how to be funny on AIM, which translates well to Teams or Slack",
+            "Will reveal storytelling skills birthed from 90’s Disney films",
+            "Will conduct domain-specific research like she got a 4.6 GPA in high school",
+            "Will surprise everyone at company karaoke with hidden musical theater talent nobody asked for",
+            "Will consult AI before asking questions about recipes and coding",
+            "Will launch into a conversation that you thought ended hours ago that her brain was still working on in the backend"
+        ];
+
+        let history = [];
+
+        function getAnswer() {
+            const ball = document.getElementById('ball');
+            const window = document.getElementById('window');
+            const historyDiv = document.getElementById('history');
+            
+            ball.classList.add('shake');
+            window.innerHTML = '...Shaking...';
+            
+            setTimeout(() => {
+                const randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+                window.innerHTML = randomAnswer.replace(/Will|Won’t/, '<strong>$&</strong>');
+                history.unshift(randomAnswer);
+                if (history.length > 5) history.pop();
+                historyDiv.innerHTML = '<h3>Recent Predictions:</h3>' + history.map(h => `<p>🎱 ${h}</p>`).join('');
+                historyDiv.style.display = 'block';
+                ball.classList.remove('shake');
+            }, 1200);
+        }
+    </script>
+</body>
+</html>
