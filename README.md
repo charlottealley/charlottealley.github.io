@@ -32,8 +32,8 @@ Causal inference for detecting persuadable voters
 **Big Data:** Spark, Hadoop, Google Cloud Platform  
 **ML:** Supervised/Unsupervised Learning, Feature Engineering, CNN, Hyperparameter Tuning
 
-## 🎱 Magic 8-Ball: Predict My Future at Your Company
-[![Shake 8-Ball](https://img.shields.io/badge/Shake%20to%20Predict-%2300399a?style=for-the-badge&logo=8ball)](https://charlottealley.github.io/8ball/)
+## 🎱 Predict My Future at Your Company: Shake to See
+[![Shake to Predict](https://img.shields.io/badge/Shake-gray?style=for-the-badge&logo=8ball)](https://charlottealley.github.io/8ball/)
 
 ## Contact
 [charlottemariealley@gmail.com](mailto:charlottemariealley@gmail.com) | 402.547.1763 | Omaha, NE | [LinkedIn](https://linkedin.com/in/charlotte-alley)
