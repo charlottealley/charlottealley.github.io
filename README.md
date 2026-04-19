@@ -1,7 +1,3 @@
-<p align="left">
-<span style="font-family:monospace;font-size:144px;font-weight:900;color:#6b7280;letter-spacing:-8px;line-height:1">CA</span>
-</p>
-
 # Charlotte Alley | Data Science MS Candidate (4.0 GPA)
 **Machine Learning Engineer** | **Data Analyst** | Omaha, NE
 
