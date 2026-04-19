@@ -30,6 +30,10 @@
 **Big Data:** Spark, Hadoop, Google Cloud Platform  
 **ML:** Supervised/Unsupervised Learning, Feature Engineering, CNN, Hyperparameter Tuning
 
+## 🎱 Magic 8-Ball: Predict My Future
+[![Shake 8-Ball](https://img.shields.io/badge/Shake%20to%20Predict-%2300399a?style=for-the-badge&logo=8ball)](https://charlottealley.github.io/8ball/)
+*(Interactive fun: Click for random Charlotte skill reveals!)*
+
 ## About
 **Healthcare domain expertise** from serving 1000+ clinical facilities as Healthcare Account Manager. MS Data Science (4.0 GPA) | Psychology BA | Building ML for patient outcomes and healthcare operations.
 
