@@ -6,36 +6,47 @@
     <title>Charlotte's Magic 8-Ball: Skills Edition</title>
     <style>
         body { 
-            background: linear-gradient(135deg, #f0f8ff 0%, #e0f2fe 100%); 
-            font-family: 'Gill Sans', 'Segoe UI', sans-serif; 
+            background: #f9fafb;
+            font-family: 'SF Mono', Monaco, 'Roboto Mono', Consolas, 'Liberation Mono', Menlo, monospace; 
             text-align: center; 
             padding: 2rem; 
             margin: 0;
+            color: #6b7280;
+            font-size: 16px;
+            line-height: 1.6;
         }
-        h1 { color: #003a66; margin-bottom: 1rem; }
+        h1 { 
+            color: #6b7280;
+            margin-bottom: 1rem; 
+            font-family: 'SF Mono', Monaco, 'Roboto Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-weight: 900;
+            letter-spacing: -1px;
+            font-size: 2.5rem;
+        }
         #ball { 
             width: 300px; height: 300px; 
-            background: radial-gradient(circle at 30% 30%, #444 0%, #111 60%, #000 100%); 
+            background: radial-gradient(circle at 30% 30%, #6b7280 0%, #374151 60%, #1f2937 100%);
             border-radius: 50%; 
             margin: 2rem auto; 
             cursor: pointer; 
             position: relative; 
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 40px rgba(107, 114, 128, 0.3);
             transition: transform 0.3s ease;
         }
         #ball:hover { transform: scale(1.05); }
         #window { 
             width: 140px; height: 140px; 
-            background: #f8f9fa; 
+            background: #f9fafb;
             border-radius: 50%; 
             position: absolute; top: 50%; left: 50%; 
             transform: translate(-50%, -50%); 
             display: flex; align-items: center; justify-content: center; 
             font-size: 0.85rem; line-height: 1.3; 
             padding: 1.2rem; 
-            box-shadow: inset 0 5px 15px rgba(0,0,0,0.3), 0 0 20px rgba(255,255,255,0.5);
+            box-shadow: inset 0 5px 15px rgba(107, 114, 128, 0.2), 0 0 20px rgba(255,255,255,0.8);
             text-align: center;
-            color: #333;
+            color: #374151;
+            font-family: 'SF Mono', Monaco, 'Roboto Mono', Consolas, 'Liberation Mono', Menlo, monospace;
             font-weight: 500;
         }
         .shake { animation: shake 1s ease-in-out; }
@@ -48,16 +59,21 @@
         }
         #history { 
             max-width: 600px; margin: 2rem auto; 
-            text-align: left; font-size: 0.9rem; color: #666; 
+            text-align: left; font-size: 0.9rem; color: #6b7280; 
             background: white; padding: 1.5rem; border-radius: 10px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(107, 114, 128, 0.1);
+            font-family: 'SF Mono', Monaco, 'Roboto Mono', Consolas, 'Liberation Mono', Menlo, monospace;
         }
-        @media (max-width: 480px) { #ball { width: 250px; height: 250px; } #window { width: 110px; height: 110px; font-size: 0.75rem; } }
+        @media (max-width: 480px) { 
+            #ball { width: 250px; height: 250px; } 
+            #window { width: 110px; height: 110px; font-size: 0.75rem; } 
+            h1 { font-size: 2rem; }
+        }
     </style>
 </head>
 <body>
-    <h1>🧙‍♀️ Shake Charlotte's 8-Ball: Predict My Future in Your Company</h1>
-    <p>Click the ball for a random skill/personality reveal!</p>
+    <h1>Shake Charlotte's 8-Ball</h1>
+    <p>Predict my future in your company... <strong>Click to reveal!</strong></p>
     <div id="ball" onclick="getAnswer()" title="Click to shake!">
         <div id="window">Ask away!</div>
     </div>
@@ -67,12 +83,12 @@
         const answers = [
             "Will write entertaining yet appropriate markdown",
             "Won’t know everything about data science but will certainly try",
-            "Learned how to be funny on AIM, which translates well to Teams or Slack",
-            "Will reveal storytelling skills birthed from 90’s Disney films",
+            "Learned how to be funny on AIM, which translates well to teams",
+            "Will reveal storytelling skills birthed from 90's Disney films",
             "Will conduct domain-specific research like she got a 4.6 GPA in high school",
-            "Will surprise everyone at company karaoke with hidden musical theater talent nobody asked for",
+            "Will surprise everyone at company karaoke with hidden musical theater talent nobody asked her to have",
             "Will consult AI before asking questions about recipes and coding",
-            "Will launch into a conversation that you thought ended hours ago that her brain was still working on in the backend"
+            "Will launch into a conversation that you thought ended hours ago, but her brain has been working on in the backend"
         ];
 
         let history = [];
@@ -90,7 +106,8 @@
                 window.innerHTML = randomAnswer.replace(/Will|Won’t/, '<strong>$&</strong>');
                 history.unshift(randomAnswer);
                 if (history.length > 5) history.pop();
-                historyDiv.innerHTML = '<h3>Recent Predictions:</h3>' + history.map(h => `<p>🎱 ${h}</p>`).join('');
+                historyDiv.innerHTML = '<h3 style="color: #6b7280; margin-top: 0;">Recent Predictions:</h3>' + 
+                    history.map(h => `<p style="margin: 0.5rem 0; color: #374151;">🎱 ${h}</p>`).join('');
                 historyDiv.style.display = 'block';
                 ball.classList.remove('shake');
             }, 1200);
