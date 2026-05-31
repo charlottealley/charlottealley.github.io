@@ -1,5 +1,5 @@
 <p align="right">
-  <img src="headshot.png" alt="Charlotte Alley" width="180">
+  <img src="headshot.png" alt="Charlotte Alley" width="220">
 </p>
 
 # Charlotte Alley | Data Science MS (4.0 GPA)
