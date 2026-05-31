@@ -1,12 +1,26 @@
-<p align="center">
-  <img src="headshot.png" alt="Charlotte Alley" width="180">
-</p>
+<table>
+<tr>
+<td width="70%">
 
 # Charlotte Alley | Data Science MS (4.0 GPA)
+
 **Machine Learning Engineer** | **Data Analyst** | Omaha, NE
 
 ## About
+
 I’m interested in using data to tell meaningful stories, improve how things work, and create people-first solutions. I enjoy clear communication, solving problems with data, and distilling complex ideas into something people can easily understand.
+
+[![Resume](https://img.shields.io/badge/Resume-PDF-gray?style=for-the-badge&logo=adobeacrobat)](CA%20Resume.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-gray?style=for-the-badge)](https://github.com/charlottealley/Data-Science-Portfolio)
+
+</td>
+<td width="30%" align="center">
+
+<img src="headshot.png" alt="Charlotte Alley" width="220">
+
+</td>
+</tr>
+</table>
 
 ## Portfolio at a Glance
 
