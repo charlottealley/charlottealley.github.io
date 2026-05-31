@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="headshot.png" alt="Charlotte Alley" width="180">
+</p>
+
 # Charlotte Alley | Data Science MS (4.0 GPA)
 **Machine Learning Engineer** | **Data Analyst** | Omaha, NE
 
