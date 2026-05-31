@@ -72,7 +72,7 @@ Data visualization campaign featuring dashboards, infographics, and storytelling
 ## Technical Skills
 **Python** (pandas, numpy, scikit-learn, PyTorch) | **SQL** | **R** | **Git** | **Jupyter**  
 **Big Data:** Spark, Hadoop, NiFi, HBase, Hive, Google Cloud Platform  
-**ML:** Supervised/Unsupervised Learning, Feature Engineering, CNN, Hyperparameter Tuning
+**ML:** Supervised/Unsupervised Learning, Feature Engineering, CNN, NLP, Hyperparameter Tuning
 
 ## 🎱 Predict My Future at Your Company: Shake to See
 [![Shake to Predict](https://img.shields.io/badge/Shake-gray?style=for-the-badge&logo=8ball)](https://charlottealley.github.io/8ball/)
