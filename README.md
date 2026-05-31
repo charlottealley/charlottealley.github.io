@@ -31,7 +31,7 @@ NLP-enhanced EHR analytics using Sentence Transformers and Cox Modeling
 [![Notebook](https://img.shields.io/badge/Jupyter-gray?style=for-the-badge&logo=jupyter)](https://github.com/charlottealley/Data-Science-Portfolio/blob/main/Time-to-Event%20-%20Predicting%20All-Cause%20Hospital%20Readmissions%20with%20NLP%20and%20Cox%20Modeling/Time-to-Event%20-%20Predicting%20All-Cause%20Hospital%20Readmissions%20with%20NLP%20and%20Cox%20Modeling.ipynb)
 [![PDF Report](https://img.shields.io/badge/PDF-lightgray?style=for-the-badge&logo=adobeacrobat)](https://github.com/charlottealley/Data-Science-Portfolio/blob/main/Time-to-Event%20-%20Predicting%20All-Cause%20Hospital%20Readmissions%20with%20NLP%20and%20Cox%20Modeling/Time-to-Event%20-%20Predicting%20All-Cause%20Hospital%20Readmissions%20with%20NLP%20and%20Cox%20Modeling.pdf)
 
-[![Project Demo Video](https://img.youtube.com/vi/VYMawr0SBIA/0.jpg)](https://www.youtube.com/watch?v=VYMawr0SBIA)
+[![Project Demo Video](https://img.youtube.com/vi/lcvbjnBzCZU/0.jpg)](https://www.youtube.com/watch?v=lcvbjnBzCZU)
 
 ### [Convolutional Neural Network – Handwriting Classification](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Convolutional%20Neural%20Network%20-%20Pytorch%20-%20Handwriting%20Image%20Classification%20on%20MNIST%20Dataset)
 CNN image classification using the MNIST dataset and PyTorch
