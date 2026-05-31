@@ -1,6 +1,6 @@
-<table>
-<tr>
-<td width="70%">
+<p align="right">
+  <img src="headshot.png" alt="Charlotte Alley" width="180">
+</p>
 
 # Charlotte Alley | Data Science MS (4.0 GPA)
 
@@ -13,15 +13,6 @@ I’m interested in using data to tell meaningful stories, improve how things wo
 [![Resume](https://img.shields.io/badge/Resume-PDF-gray?style=for-the-badge&logo=adobeacrobat)](CA%20Resume.pdf)
 [![Portfolio](https://img.shields.io/badge/Portfolio-gray?style=for-the-badge)](https://github.com/charlottealley/Data-Science-Portfolio)
 
-</td>
-<td width="30%" align="center">
-
-<img src="headshot.png" alt="Charlotte Alley" width="220">
-
-</td>
-</tr>
-</table>
-
 ## Portfolio at a Glance
 
 - 10 End-to-End Data Science Projects
@@ -29,7 +20,6 @@ I’m interested in using data to tell meaningful stories, improve how things wo
 - Healthcare, NLP, Survival Analysis, Causal Inference, Deep Learning
 - Spark, Hadoop, Hive, HBase, NiFi, YARN
 - Python, SQL, R, PyTorch, Scikit-Learn
-
 [![Resume](https://img.shields.io/badge/Resume-PDF-gray?style=for-the-badge&logo=adobeacrobat)](CA%20Resume.pdf)
 [![Portfolio](https://img.shields.io/badge/Portfolio-gray?style=for-the-badge)](https://github.com/charlottealley/Data-Science-Portfolio)
 
