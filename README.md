@@ -33,10 +33,20 @@ NLP-enhanced EHR analytics using Sentence Transformers and Cox Modeling
 
 [![Project Demo Video](https://img.youtube.com/vi/lcvbjnBzCZU/0.jpg)](https://www.youtube.com/watch?v=lcvbjnBzCZU)
 
+### [Big Data GPA Prediction Pipeline](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Big%20Data-%20End-to-End%20Linear%20Regression%20Pipeline)
+End-to-end analytics pipeline using NiFi, Hive, Spark, HBase, and Hadoop
+
+[![PDF Report](https://img.shields.io/badge/PDF-lightgray?style=for-the-badge&logo=adobeacrobat)](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Big%20Data-%20End-to-End%20Linear%20Regression%20Pipeline)
+
 ### [Convolutional Neural Network – Handwriting Classification](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Convolutional%20Neural%20Network%20-%20Pytorch%20-%20Handwriting%20Image%20Classification%20on%20MNIST%20Dataset)
 CNN image classification using the MNIST dataset and PyTorch
 
 [![Notebook](https://img.shields.io/badge/Jupyter-gray?style=for-the-badge&logo=jupyter)](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Convolutional%20Neural%20Network%20-%20Pytorch%20-%20Handwriting%20Image%20Classification%20on%20MNIST%20Dataset)
+
+### [Retail Sales Forecasting During COVID-19](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Forecasting%20-%20Holt-Winters%20-%20Retail%20Sales%20Among%20COVID%20Anomaly)
+Time-series forecasting using Holt-Winters exponential smoothing
+
+[![Notebook](https://img.shields.io/badge/Jupyter-gray?style=for-the-badge&logo=jupyter)](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Forecasting%20-%20Holt-Winters%20-%20Retail%20Sales%20Among%20COVID%20Anomaly)
 
 ### [K-Means Clustering for MLB Attendance](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Unsupervised%20Learning%20-%20K-Means%20-%20Using%20Clustering%20to%20Improve%20MLB%20Attendance)
 Unsupervised learning for fan segmentation and attendance optimization
@@ -49,20 +59,10 @@ Feature extraction and exploratory analysis of White House visitor logs
 [![Notebook](https://img.shields.io/badge/Jupyter-gray?style=for-the-badge&logo=jupyter)](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Feature%20Extraction%20-%20White%20House%20Logs%20Gender-Representation%20Analysis)
 [![PDF Report](https://img.shields.io/badge/PDF-lightgray?style=for-the-badge&logo=adobeacrobat)](https://github.com/charlottealley/Data-Science-Portfolio/blob/main/Feature%20Extraction%20-%20White%20House%20Logs%20Gender-Representation%20Analysis/White%20House%20Logs.pdf)
 
-### [Retail Sales Forecasting During COVID-19](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Forecasting%20-%20Holt-Winters%20-%20Retail%20Sales%20Among%20COVID%20Anomaly)
-Time-series forecasting using Holt-Winters exponential smoothing
-
-[![Notebook](https://img.shields.io/badge/Jupyter-gray?style=for-the-badge&logo=jupyter)](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Forecasting%20-%20Holt-Winters%20-%20Retail%20Sales%20Among%20COVID%20Anomaly)
-
 ### [School-Adjacent Shooting Analysis](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Data%20Mining%20and%20Preparation%20-%20School-Adjacent%20Shootings%20Analysis)
 Data mining, APIs, web scraping, and SQLite database integration
 
 [![Notebook](https://img.shields.io/badge/Jupyter-gray?style=for-the-badge&logo=jupyter)](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Data%20Mining%20and%20Preparation%20-%20School-Adjacent%20Shootings%20Analysis)
-
-### [Big Data GPA Prediction Pipeline](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Big%20Data-%20End-to-End%20Linear%20Regression%20Pipeline)
-End-to-end analytics pipeline using NiFi, Hive, Spark, HBase, and Hadoop
-
-[![PDF Report](https://img.shields.io/badge/PDF-lightgray?style=for-the-badge&logo=adobeacrobat)](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Big%20Data-%20End-to-End%20Linear%20Regression%20Pipeline)
 
 ### [Four-Day Work Weeks and Childcare Costs](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Visualizations%20-%20Four%20Day%20Weeks%20as%20Solution%20to%20Childcare%20Costs)
 Data visualization campaign featuring dashboards, infographics, and storytelling
