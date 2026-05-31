@@ -21,7 +21,7 @@ I’m interested in using data to tell meaningful stories, improve how things wo
 - Spark, Hadoop, Hive, HBase, NiFi, YARN
 - Python, SQL, R, PyTorch, Scikit-Learn
 
-## Featured Projects
+## Portfolio Projects
 
 ### [Heart Disease Risk Prediction](https://github.com/charlottealley/Data-Science-Portfolio/tree/main/Supervised%20Learning%20-%20Logistic%20Regression%20-%20Predicting%20Heart%20Disease%20Risk%20Scores)
 Logistic Regression for clinical outcome modeling
