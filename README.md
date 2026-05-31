@@ -20,8 +20,6 @@ I’m interested in using data to tell meaningful stories, improve how things wo
 - Healthcare, NLP, Survival Analysis, Causal Inference, Deep Learning
 - Spark, Hadoop, Hive, HBase, NiFi, YARN
 - Python, SQL, R, PyTorch, Scikit-Learn
-[![Resume](https://img.shields.io/badge/Resume-PDF-gray?style=for-the-badge&logo=adobeacrobat)](CA%20Resume.pdf)
-[![Portfolio](https://img.shields.io/badge/Portfolio-gray?style=for-the-badge)](https://github.com/charlottealley/Data-Science-Portfolio)
 
 ## Featured Projects
 
